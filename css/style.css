@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: rgb(22, 114, 83) !important;
+}
+body h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+  color: chocolate;
+}
+/* body h1:hover {
+  font-size: 100px;
+  cursor: pointer;
+} */
+.form_main {
+}
+.timer {
+  text-align: center;
+  padding: 7rem;
+  color: black;
+  font-size: 50px;
+  background-color: white;
+  position: relative;
+  width: 110%;
+  right: 50px;
+  border-radius: 20px;
+  height: 40vh;
+}
+
+.button_group {
+  text-align: center;
+  margin-bottom: 5rem;
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+}
+.button_group button {
+  padding: 20px;
+  background-color: teal;
+  border-radius: 50%;
+  font-weight: bolder;
+  color: wheat;
+  /* margin: 20px; */
+}
+.container {
+  height: 70vh;
+  background-color: teal;
+  margin-top: 10rem;
+  color: white;
+  /* position: relative; */
+  border-radius: 10px;
+}
+.container h1 {
+  text-align: left;
+  padding-bottom: 20px;
+  color: white;
+}
+.button_group button:hover {
+  /* background-color: gold; */
+}
+
+/* @ media querry */
+
+@media (max-width: 768px) {
+  .button_group button {
+    padding: 10px;
+    background-color: teal;
+    border-radius: 50%;
+    font-weight: bolder;
+  }
+  .container {
+    height: 25rem;
+    max-width: 20rem;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  .timer {
+    text-align: center;
+    padding: 7rem;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    position: relative;
+    width: 109%;
+    right: 30px;
+    border-radius: 20px;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .button_group button {
+    padding: 10px;
+    background-color: teal;
+    border-radius: 50%;
+    font-weight: bolder;
+  }
+  .container {
+    height: 25rem;
+    max-width: 20rem;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  .timer {
+    text-align: center;
+    padding: 7rem;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    position: relative;
+    width: 120%;
+    right: 30px;
+    border-radius: 20px;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .button_group button {
+    padding: 10px;
+    background-color: teal;
+    border-radius: 50%;
+    font-weight: bolder;
+  }
+  .container {
+    height: 25rem;
+    max-width: 20rem;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  .timer {
+    text-align: center;
+    padding: 7rem;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    position: relative;
+    width: 120%;
+    right: 30px;
+    border-radius: 20px;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .button_group button {
+    padding: 5px;
+    background-color: teal;
+    border-radius: 100%;
+    font-weight: bolder;
+  }
+  .container {
+    height: 20rem;
+    max-width: 15rem;
+  }
+  .container h1 {
+    font-size: 25px;
+  }
+  .timer {
+    text-align: center;
+    padding: 4rem;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    position: relative;
+    width: 130%;
+    right: 28px;
+    border-radius: 20px;
+    height: 15vh;
+  }
+}
